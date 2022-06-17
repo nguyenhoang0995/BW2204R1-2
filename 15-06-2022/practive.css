@@ -1,0 +1,18 @@
+
+#header a {
+    display: none;
+    background-color: yellow;
+    padding: 20px;
+  }
+  
+  #header a:hover a {
+    display: block;
+  }
+#aside a{
+    display: none;
+    padding: 30px;
+    color: #006600;
+}
+#aside a:visited {
+    display: block;
+}
