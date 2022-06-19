@@ -44,6 +44,23 @@ header input {
 .product img {
     width: 100%;
 }
-@media screen and (maxw) {
     
+
+@media screen and (max-width:767px) {
+    .product-container{
+        width: 100%;
+    }
+    .product{
+        width: 44%;
+    }
+}
+
+@media screen and(max-width:920px) and(min-width:768px) {
+    .product-container{
+        width: 100%;
+    }
+    .product{
+        width: 30%;
+        margin: 10px;
+    }
 }
